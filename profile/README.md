@@ -1,122 +1,113 @@
-# Nithron
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=NITHRON&fontSize=80&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Software%20Studio&descAlignY=55&descSize=20">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:0f3460&height=200&section=header&text=NITHRON&fontSize=80&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Software%20Studio&descAlignY=55&descSize=20" width="100%">
+</picture>
 
-**Open-Core & Community.**  
-We build practical, self-hostable software in public—free and open at the core—backed by commercial builds and enterprise support when you need guarantees.
+<div align="center">
 
-> 🌐 nithron.com | ✳️ Star the repos you use | 💬 Join discussions in each repo
+### Backend-heavy systems. Clear architecture. Long-term maintainability.
 
----
+[![Website](https://img.shields.io/badge/nithron.com-e94560?style=for-the-badge&logo=safari&logoColor=white)](https://nithron.com)
+[![Email](https://img.shields.io/badge/hello@nithron.com-16213e?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@nithron.com)
 
-## What we do
-
-Nithron ships composable building blocks for modern teams with a focus on **security**, **performance**, and **developer experience**.
-
-- **Open by default:** public repos, transparent roadmaps, early RFCs.  
-- **Run-it-yourself:** clear docs and escape hatches—no lock-in.  
-- **Quality first:** CI, tests, and reviews that mirror real production use.  
-- **Composable, not monolithic:** integrate with the stack you already have.
-
-Everything we **conceive and fund in-house** is developed openly here. Customer-requested / work-for-hire projects ship in private repos under their agreements.
+</div>
 
 ---
 
-## Our model: Open-Core & Community
+## ⚡ What We Do
 
-- **Open core:** the core lives under a permissive OSS license in public repositories.  
-- **Community development:** roadmaps, issues, and RFCs are open; contributions are welcome from day one.  
-- **Commercial options (no lock-in):** hardened builds, LTS, SLAs, compliance packs, and expert support—built on the *same* open core.
+We're an **independent software studio** that builds production-grade systems designed for performance, reliability, and evolution. No fluff—just solid engineering.
 
-If you’re running Nithron components in production and need guarantees, see **Commercial Support** below.
+<table>
+<tr>
+<td width="50%">
 
----
+### 🔧 Backend Systems & APIs
+Production-ready APIs and services that power your product. Built for scale, tested for edge cases.
 
-## Roadmap & RFCs
+### 🏗️ Architecture & Engineering Leadership
+Clear system design and technical direction for complex builds. We help teams make decisions that won't haunt them later.
 
-We plan in public:
+### ☁️ Cloud & Platform Engineering
+Secure infrastructure and automation for calm, scalable operations. Less firefighting, more shipping.
 
-- **Roadmaps:** GitHub Projects at the org and repo level.  
-- **RFCs:** proposal docs in each repo (usually `/rfcs`) with clear review stages.  
-- **Actionable labels:** `good first issue`, `help wanted`, `up-for-grabs`.
+</td>
+<td width="50%">
 
-> Tip: Sort issues by label to find high-impact contributions quickly.
+### 🗄️ Data, Databases & Integrations
+Fast, reliable data layers and integrations across your stack. From Postgres tuning to third-party API wrangling.
 
----
+### 🔒 Security Reviews & Hardening
+Practical security improvements that reduce risk without slowing delivery. Threat modeling, code audits, and production hardening.
 
-## How to contribute
+### 🛠️ Custom Development
+End-to-end delivery of backend-heavy projects. We handle the complexity so you can focus on your product.
 
-We love thoughtful contributions—bugs, docs, tests, or features.
-
-1. **Check issues / RFCs** to confirm scope and direction.  
-2. For non-trivial changes, **open a design note** (issue or RFC comment).  
-3. **Fork → PR** with tests and docs.  
-4. Expect a **fast, respectful review** with clear next steps.
-
-See each repo’s **CONTRIBUTING.md** and **CODE_OF_CONDUCT.md** before you start. If something’s missing, open an issue—we’ll fix it.
-
----
-
-## Security
-
-Found a potential vulnerability?  
-Use **GitHub Private Vulnerability Reporting** on the affected repo (if enabled). Otherwise, contact us via the website to coordinate a responsible disclosure. We avoid posting exploit details publicly until a fix is shipped.
+</td>
+</tr>
+</table>
 
 ---
 
-## Commercial support
+## 🎯 How We Work
 
-Teams can add:
+A senior-led process designed to keep projects **predictable** and **transparent**.
 
-- **Hardened & LTS releases**  
-- **SLAs & priority support**  
-- **Security reviews & compliance artifacts**
-
-Reach out via our website to discuss options tailored to your environment.
-
----
-
-## Licensing
-
-Each repository includes its **own LICENSE**. Please review it before using code from that repo. (We default to permissive OSS licenses for open-core components.)
-
----
-
-## Community expectations
-
-- Be kind, specific, and assume positive intent.  
-- Prefer public threads over private DMs so others can learn.  
-- Debate ideas, not people.  
-- Credit contributors.
-
-We adopt the **Contributor Covenant** across community spaces.
-
----
-
-## Stay in the loop
-
-- **Watch / star** the repos you rely on  
-- **Use Discussions** for design/RFC feedback  
-- **Follow Releases** for change logs and upgrade guides
-
----
-
-## Quick start (template)
-
-Most repos include a `README` with the exact steps. A typical flow looks like:
-
-```bash
-# clone & install
-git clone https://github.com/<org>/<repo>.git
-cd <repo>
-make setup  # or: npm install / poetry install / cargo build
-
-# run tests
-make test   # or: npm test / pytest / etc.
-
-# start dev
-make dev    # or: npm run dev / docker compose up
+```
+┌─────────────────────┐     ┌─────────────────────┐     ┌─────────────────────┐
+│  1. DISCOVERY       │────▶│  2. BUILD           │────▶│  3. LAUNCH          │
+│                     │     │                     │     │                     │
+│  • Goals & metrics  │     │  • Short iterations │     │  • Production deploy│
+│  • Domain mapping   │     │  • Clear milestones │     │  • Monitoring setup │
+│  • Risk assessment  │     │  • Code quality     │     │  • Documentation    │
+│  • Constraints      │     │  • Testing & obs.   │     │  • Smooth handover  │
+└─────────────────────┘     └─────────────────────┘     └─────────────────────┘
 ```
 
+**Ongoing support** available as ad-hoc work or monthly retainer—whatever fits your needs.
+
 ---
 
-If open, self-hostable software with real business support is your thing, you’re in the right place.
-Pull a repo, file an issue, or propose an RFC—help shape what we ship next.
+## 👤 About
+
+**Founder-led** studio with a hands-on approach. Every project gets senior attention, not a handoff to juniors.
+
+> **Thiago Benkendorf** — *Founder & Principal Engineer*  
+> 10+ years building production systems with a focus on backend engineering, architecture, and cloud delivery.
+
+We operate with **confidentiality as default**. Your work stays private unless you decide otherwise.
+
+---
+
+## 📍 Get In Touch
+
+<div align="center">
+
+| 🌐 Website | 📧 Email | 📞 Phone |
+|:---:|:---:|:---:|
+| [nithron.com](https://nithron.com) | [hello@nithron.com](mailto:hello@nithron.com) | +46 70 895 7359 |
+
+</div>
+
+---
+
+## 🗂️ Open Source
+
+Some of our internal tools and libraries live here. Feel free to explore, use, and contribute.
+
+Each repo has its own **LICENSE**—check before you ship.
+
+---
+
+<div align="center">
+
+**Reliable systems. Honest engineering. No drama.**
+
+<sub>Stockholm, Sweden 🇸🇪</sub>
+
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=100&section=footer">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:0f3460&height=100&section=footer" width="100%">
+</picture>
